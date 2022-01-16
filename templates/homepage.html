@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <title>ML API</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
@@ -25,7 +24,13 @@
         <input type="text" name="3" placeholder="Plasmodium" required="required" />
 
         <input type="text" name="4" placeholder="Insulin" required="required" />
-       
+        <select name="selection" id="sel1s">
+            
+            <option value="rf">Random Forest</option>
+            <option value="svm">SVM</option>
+            <option value="dt">Decision Tree</option>
+            
+        </select>
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
 
